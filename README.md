@@ -1,5 +1,9 @@
 # VS Code Settings
 
+## Extensions
+
+Full list of extensions [here](https://gist.github.com/axelca/be39651c5361b1ae4c98f23fcf9d5688).
+
 ## Settings
 
 ```json
