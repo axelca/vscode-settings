@@ -9,39 +9,25 @@ Full list of extensions [here](https://gist.github.com/axelca/be39651c5361b1ae4c
 ```json
 {
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "git.autofetch": true,
   "editor.tabSize": 2,
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"],
+  "prettier.disableLanguages": ["js"],
   "[javascript]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.formatOnSave": false
   },
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": false,
+  "editor.formatOnPaste": true,
   "workbench.startupEditor": "newUntitledFile",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.tree.renderIndentGuides": "always"
 }
 ```
 
